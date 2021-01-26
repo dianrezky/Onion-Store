@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1575551913 source:e:\tugas  smt 3\tubes pbo smt 3 kasir kel 5\main.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<stdbool.h>
+	<windows.h>
+	<conio.h>
+	<time.h>
+	<fstream>
+	<math.h>
+	<iomanip>
+
+1581075637 source:c:\users\asus\onedrive - telkom university\project\tubes pbo smt 3 kasir kel 5 bahasa c++\main.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<stdbool.h>
+	<windows.h>
+	<conio.h>
+	<time.h>
+	<fstream>
+	<math.h>
+	<iomanip>
+

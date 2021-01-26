@@ -1,0 +1,5 @@
+admin	admin
+dian	dian
+rezky	rezky
+jabal	jabal
+hafi	hafi
