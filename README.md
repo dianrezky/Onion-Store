@@ -1,7 +1,7 @@
 # Onion-Store
 Tugas besar mata kuliah Pemograman Berbasis Object. Applikasi ini dapat digunakan untuk management data yang ada dalam suatu toko seperti menginput barang, dll.
 
-#Fitur Applikasi
+# Fitur Applikasi
   
   1. Register dan Login
   2. Input dan Delete Data Barang
