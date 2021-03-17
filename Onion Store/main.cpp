@@ -247,7 +247,7 @@ void tampilbarang(){
     ifstream data;
     z=0;
     i=0;
-    data.open("barang.txt");
+    data.open("barang.txt",ios::app);
 
     cout<<"\n\t\t\t\t\t\t ~~~~~~~~~~ LIST OF ITEM ~~~~~~~~~~\n\n";
     cout<<"_________________________________________________________________________________________________________________________________________\n";
@@ -261,10 +261,10 @@ void tampilbarang(){
     }
 
     for(i=1;i<=z;i++){
-        while(i>=10){
+        if(i>=10){
             cout<<i<<" | "<<"      "<<input.barang[i].kode<<"     |"<<"\t       "<<input.barang[i].namabarang<<"\t\t|"<<"        "<<input.barang[i].harga<<"     \t\t\t|"<<"       "<<input.barang[i].kategori<<"     \t|"<<"        "<<input.barang[i].tanggal<<"   \t|"<<endl;
         }
-        while(i<10){
+        else{
             cout<<i<<"  | "<<"      "<<input.barang[i].kode<<"     |"<<"\t       "<<input.barang[i].namabarang<<"\t\t|"<<"        "<<input.barang[i].harga<<"     \t\t\t|"<<"       "<<input.barang[i].kategori<<"     \t|"<<"        "<<input.barang[i].tanggal<<"   \t|"<<endl;
         }
     }
@@ -273,7 +273,7 @@ void tampilbarang(){
     cout<<"-----------------------------------------------------------------------------------------------------------------------------------------\n";
     data.close();
 
-    exit(0);
+    //exit(0);
 
 }
 
@@ -534,8 +534,10 @@ void bayarmember(){
     cin>>uang;
 
     kembalian=uang-total;
-
+    
     cout<<endl;
+    
+    cout<<"Kembali : Rp. "<<kembalian<<endl<<endl;
 
     baayaruang<<uang<<"\t"<<kembalian<<endl;
 
@@ -591,7 +593,7 @@ void bayarnonmember(){
     kembalian=uang-total;
 
     cout<<endl;
-    cout<<"Kembali : Rp. "<<kembalian;
+    cout<<"Kembali : Rp. "<<kembalian<<endl<<endl;
 
     baayaruangnonmem<<uang<<"\t"<<kembalian<<endl;
 
